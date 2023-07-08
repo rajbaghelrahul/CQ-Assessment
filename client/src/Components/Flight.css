@@ -1,0 +1,23 @@
+.inputContainer {
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 10px;
+}
+.inputTags {
+    margin: 10px;
+}
+.errorMessage {
+    margin: 10px;
+    margin-left: 20px;
+    color: red;
+    font-weight: bold;
+}
+.searchButtonBox button{
+    margin-left: 20px;
+    text-align: center;
+    background-color: #565656;
+    color: white;
+    padding: 7px 50px;
+    font-size: large;
+}
