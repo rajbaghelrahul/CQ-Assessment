@@ -10,9 +10,11 @@
     padding: 10px 15px;
     margin-right: 10px;
 }
-  
+
+.navbarTab .flight {
+    background-color: #DF4B35;
+}
 .navbarTab:active {
     background-color: #DF4B35;
     color: white;
 }
-  

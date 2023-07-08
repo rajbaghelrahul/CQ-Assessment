@@ -72,7 +72,7 @@ const handleToChange = (event) => {
           <br />
           <input
             type="text"
-            placeholder="Departing form"
+            placeholder="Departing from"
             id="from"
             value={from}
             onChange={handleFromChange}
