@@ -2,19 +2,19 @@
     display: flex;
     background-color: #000000;
 }
-  
+.headingMain {
+    margin-top: 30px;
+    margin-left: 20px;
+}
 .navbarTab {
     cursor: pointer;
     /* background-color: #DF4B35; */
     color: white;
     padding: 10px 15px;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
-.navbarTab .flight {
-    background-color: #DF4B35;
-}
-.navbarTab:active {
+.navbarTab.active {
     background-color: #DF4B35;
     color: white;
 }

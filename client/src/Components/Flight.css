@@ -1,11 +1,16 @@
 .inputContainer {
     margin-top: 20px;
     display: flex;
-    /* justify-content: space-around; */
     padding: 10px;
 }
 .inputTags {
     margin: 10px;
+}
+.inputTags input {
+    margin-top: 10px;
+    padding: 8px;
+    outline: #565656;
+    font-weight: bold;
 }
 .errorMessage {
     margin: 10px;
@@ -13,11 +18,11 @@
     color: red;
     font-weight: bold;
 }
-.searchButtonBox button{
+.searchButtonBox button {
     margin-left: 20px;
     text-align: center;
     background-color: #565656;
     color: white;
-    padding: 7px 50px;
+    padding: 7px 70px;
     font-size: large;
 }

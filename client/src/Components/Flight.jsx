@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
+
 const Flight = () => {
   const [from, setFrom] = useState("");
   const [to, setTo] = useState("");
@@ -10,7 +11,7 @@ const Flight = () => {
   const [error, setError] = useState("");
   
   
-
+  
 
   const supportedFromCities = [
     "Mumbai",
@@ -66,6 +67,9 @@ const handleToChange = (event) => {
 
   return (
     <>
+    <div className="headingMain">
+        <h2>Travel the World with us</h2>
+    </div>
       <div className="inputContainer">
         <div className="inputTags">
           <label htmlFor="from">From</label>
